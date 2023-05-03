@@ -1,0 +1,26 @@
+api key=90f203ed12634c6980159699805565d0
+const userAgent = req.get('user-agent');
+const options = {
+host: 'newsapi.org',
+path: '/v2/top-headlines?country=in&apiKey=90f203ed12634c6980159699805565d0',
+headers: {
+  'User-Agent': userAgent
+}
+}
+https.get(options, function (response) {
+let data;
+response.on('data', function (chunk) {
+    if (!data) {
+        data = chunk;
+    }
+    else {
+        data += chunk;
+    }
+});
+response.on('end', function () {
+    const newsData = JSON.parse(data);
+    newsTitle=newsData.articles[0].title;
+    newsDes=newsData.articles[6].description;
+    newsImg=newsData.articles[3].urlToImage;
+  });
+});

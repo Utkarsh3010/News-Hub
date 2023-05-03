@@ -1,0 +1,31 @@
+.img-container{
+  position: relative;
+  margin-left: 450px;
+}
+.login-signup-btn{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.login-btn{
+  margin-left: 2px;
+}
+.pagination{
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.login-img{
+  position: relative;
+  margin-left: 490px;
+}
+.signup-img{
+  position: relative;
+  margin-left: 490px;
+}
