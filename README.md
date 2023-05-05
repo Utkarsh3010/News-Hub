@@ -43,6 +43,13 @@ This application fetches news articles from the NewsAPI service.
 
 
 ## ScreenShots
+
+
+
+https://user-images.githubusercontent.com/92597547/236544514-53bb4a71-a2f9-462c-a6dd-3ec675c9bff1.mp4
+
+
+
 ![news-front](https://user-images.githubusercontent.com/92597547/235934209-78a24c27-23d0-4a5b-bfc0-79115f58f58e.jpg)
 ![news-log](https://user-images.githubusercontent.com/92597547/235934477-3d6f0db7-3958-4749-b8b6-199521964708.jpg)
 ![news-sign](https://user-images.githubusercontent.com/92597547/235934704-eeba2656-0701-4461-85ca-e67b512a5e11.jpg)
